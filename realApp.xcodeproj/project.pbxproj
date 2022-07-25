@@ -16,6 +16,7 @@
 		B39DEBC8288E869E0089226F /* the-new-york-times-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B39DEBC7288E869E0089226F /* the-new-york-times-logo.png */; };
 		B39DEBCA288E86C00089226F /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DEBC9288E86C00089226F /* Util.swift */; };
 		B39DEBCC288ED40A0089226F /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DEBCB288ED40A0089226F /* HomeTableViewCell.swift */; };
+		B39DEBCE288ED6230089226F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DEBCD288ED6230089226F /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B39DEBC7288E869E0089226F /* the-new-york-times-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-new-york-times-logo.png"; sourceTree = "<group>"; };
 		B39DEBC9288E86C00089226F /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		B39DEBCB288ED40A0089226F /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B39DEBCD288ED6230089226F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +66,15 @@
 			children = (
 				B39DEBB3288E81E50089226F /* AppDelegate.swift */,
 				B39DEBB5288E81E50089226F /* SceneDelegate.swift */,
-				B39DEBB7288E81E50089226F /* ViewController.swift */,
 				B39DEBB9288E81E50089226F /* Main.storyboard */,
 				B39DEBBC288E81E70089226F /* Assets.xcassets */,
 				B39DEBBE288E81E70089226F /* LaunchScreen.storyboard */,
 				B39DEBC1288E81E70089226F /* Info.plist */,
 				B39DEBC7288E869E0089226F /* the-new-york-times-logo.png */,
-				B39DEBC9288E86C00089226F /* Util.swift */,
+				B39DEBB7288E81E50089226F /* ViewController.swift */,
 				B39DEBCB288ED40A0089226F /* HomeTableViewCell.swift */,
+				B39DEBC9288E86C00089226F /* Util.swift */,
+				B39DEBCD288ED6230089226F /* Model.swift */,
 			);
 			path = realApp;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				B39DEBB8288E81E50089226F /* ViewController.swift in Sources */,
 				B39DEBCC288ED40A0089226F /* HomeTableViewCell.swift in Sources */,
 				B39DEBB4288E81E50089226F /* AppDelegate.swift in Sources */,
+				B39DEBCE288ED6230089226F /* Model.swift in Sources */,
 				B39DEBB6288E81E50089226F /* SceneDelegate.swift in Sources */,
 				B39DEBCA288E86C00089226F /* Util.swift in Sources */,
 			);
